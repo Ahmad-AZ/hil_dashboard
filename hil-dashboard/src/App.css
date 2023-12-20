@@ -1,0 +1,324 @@
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button a {
+    color: white;
+}
+
+button a:hover {
+    color: white;
+}
+
+.hil-tile {
+    
+    border-radius: 10px;
+    border: 1px solid #333;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 1;
+    padding: 10px;
+    width: 430px;
+    height: 155px;
+    background-color: #cccccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+.hil-tile:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3 ease;
+}
+
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 4px;
+
+    
+}
+
+.hil-name {
+    background-color: cadetblue;
+
+
+}
+
+.hil-bmu {
+    background-color: brown;
+    cursor: pointer;
+
+
+
+}
+
+.hil-booking {
+    background-color: skyblue;
+    cursor: pointer;
+
+
+}
+
+
+.hil-occuoan {
+    background-color: transparent;
+    cursor: pointer;
+
+ 
+
+}
+
+.hil-notes {
+    background-color: transparent;
+    cursor: pointer;
+
+  
+}
+
+.hil-r33 {
+    background-color: aqua;
+
+}
+
+.hil-status {
+    background-color: saddlebrown;
+    
+
+}
+
+.hil-activity {
+    background-color: slateblue;
+
+
+}
+
+.hil-status-good {
+    background-color: darkgreen;
+   
+
+}
+
+.hil-status-bad {
+    background-color: red;
+   
+
+}
+
+.hil-status-np {
+    background-color: yellow;
+   
+}
+
+
+
+
+
+.userActivity {
+    background-color: purple;
+  
+
+}
+
+.inactive {
+    background-color: gray;
+
+
+}
+
+.offline {
+    background-color: red;
+  
+
+
+}
+
+.automatedTestExecution {
+    background-color: green;
+  
+}
+
+
+.ciActivity {
+    background-color: rgb(50, 50, 230);
+   
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row.main {
+    row-gap: 20px;
+    width: 1400px;
+
+
+}
+
+
+.availableHillList li {
+    cursor: pointer;
+}
+
+
+ul {
+    padding-left: 1rem;
+    list-style-type: decimal;
+}
+
+.col-4 {
+    
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+.col-8 {
+
+    padding-left: 2px;
+    padding-right: 2px;
+
+}
+
+.row {
+
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.custom-container-lg {
+
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.empty-field {
+
+    position: relative;
+}
+
+.empty-field:after {
+
+
+    color: red;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+
+}
+
+.empty-field-border {
+    border: 1px solid red;
+}
+
+.hil-title {
+
+    color: #333;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Add this to your CSS \*/
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gen-container {
+  display: flex;
+}
+
+.gen-section {
+
+  justify-content: center;
+  width: 200px;  
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.availableHillList {
+  list-style: none;
+  padding: 0;
+}
+
+.availableHillList li {
+  cursor: pointer;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.availableHillList li:hover {
+  background-color: #e0e0e0;
+}
+
+.modal-footer {
+  border-radius: 0 0 10px 10px;
+}
+
+/* Close button styling \*/
+.modal-footer button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-footer button:hover {
+  background-color: #c82333;
+}
